@@ -1,5 +1,7 @@
 window.addEventListener('scroll', onScroll)
 
+var navigation = document.getElementById('navigation');
+
 function onScroll(){
     showNavOnScroll();
     showBackToTopOnScroll();
